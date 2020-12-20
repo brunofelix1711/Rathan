@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">	
+<suite thread-count="1" verbose="1" name="udumey" annotations="JDK" parallel="tests">
+  <test name="udumey">
+        <parameter name="uname" value="felixmech1993@gmail.com" />
+        <parameter name="pword" value="melwin77" />
+         <classes>
+       <class name="testonly.UdumeyTestcase"/>
+     </classes>
+   </test>
+</suite>

@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">	
+<suite thread-count="1" verbose="1" name="dataprovider" annotations="JDK" parallel="tests">
+  <test name="dataprovider">
+         <classes>
+       <class name="dataprovider.Dataprovider"/>
+        <class name="dataprovider.ProviderTest"/>
+     </classes>
+   </test>
+</suite>

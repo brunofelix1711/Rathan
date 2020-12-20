@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="udumey" duration-ms="37150" started-at="2020-12-16T13:42:48 IST" finished-at="2020-12-16T13:43:25 IST">
+    <groups>
+    </groups>
+    <test name="udumey" duration-ms="37150" started-at="2020-12-16T13:42:48 IST" finished-at="2020-12-16T13:43:25 IST">
+      <class name="dataprovider.ProviderTest">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String, java.lang.String)[pri:0, instance:dataprovider.ProviderTest@6ebc05a6]" name="launchBrowser" duration-ms="19388" started-at="2020-12-16T13:42:48 IST" data-provider="rathan" finished-at="2020-12-16T13:43:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[felixbruno1993@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="launchBrowser(java.lang.String, java.lang.String)[pri:0, instance:dataprovider.ProviderTest@6ebc05a6]" name="launchBrowser" duration-ms="17731" started-at="2020-12-16T13:43:08 IST" data-provider="rathan" finished-at="2020-12-16T13:43:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sarath@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+      </class> <!-- dataprovider.ProviderTest -->
+    </test> <!-- udumey -->
+  </suite> <!-- udumey -->
+</testng-results>
